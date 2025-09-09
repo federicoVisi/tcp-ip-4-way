@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1210.0, 392.0, 1074.0, 787.0 ],
+		"rect" : [ 1210.0, 392.0, 658.0, 787.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -348,7 +348,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[7]",
-							"parameter_mmax" : 3000.0,
+							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Added latency",
 							"parameter_type" : 0,

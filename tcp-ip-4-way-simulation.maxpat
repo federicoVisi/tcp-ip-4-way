@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 276.0, 100.0, 789.0, 789.0 ],
+		"rect" : [ 1111.0, 248.0, 789.0, 789.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -91,18 +91,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 444.0, 198.0, 139.0, 22.0 ],
 					"text" : "print back-to-amsterdam"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 554.0, 612.0, 150.0, 100.0 ],
-					"text" : "add midi kill\nmake repos for:\n4-way\nmidi kill\nacusticum stops (with stuck notes trick)\nr1 stops"
 				}
 
 			}
