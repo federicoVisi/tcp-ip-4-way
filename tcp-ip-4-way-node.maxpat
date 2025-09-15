@@ -10,10 +10,123 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1100.0, 236.0, 712.0, 393.0 ],
+		"rect" : [ 1020.0, 466.0, 734.0, 400.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 772.0, 438.0, 79.0, 22.0 ],
+					"text" : "r refresh-midi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 581.666685104370117, 438.0, 79.0, 22.0 ],
+					"text" : "r refresh-midi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 134.166669428348541, 69.0, 79.0, 22.0 ],
+					"text" : "r refresh-midi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 53.500002801418304, 94.5, 64.0, 22.0 ],
+					"text" : "controllers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 700.666687548160553, 471.666674196720123, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.666687548160553, 471.666674196720123, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.166687548160553, 138.00000411272049, 81.0, 22.0 ],
+					"text" : "s refresh-midi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 499.166687548160553, 107.00000411272049, 79.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 202.0, 74.0, 89.0, 28.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_longname" : "live.text[3]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.text[2]",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Refresh MIDI",
+					"varname" : "live.text[3]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -99,63 +212,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 426.0, 147.0, 31.0, 22.0 ],
-					"text" : "t b s"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 73.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-55",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
-					"labelclick" : 1,
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 426.0, 188.0, 100.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 187.0, 74.333335518836975, 133.333337306976318, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 106.0, 55.0, 23.0 ],
-					"text" : "midiinfo"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -183,7 +239,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -207,7 +262,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -246,6 +300,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-43",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -253,9 +308,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 177.333338618278503, 108.000003218650818, 75.33333557844162, 14.000000417232513 ],
+					"patching_rect" : [ 177.333338618278503, 102.0, 95.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.000006020069122, 120.000003576278687, 88.666669309139252, 14.000000417232513 ],
+					"presentation_rect" : [ 202.0, 106.0, 89.0, 28.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -296,7 +351,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 324.666676342487335, 474.000014126300812, 59.333335101604462, 15.333333790302277 ],
+					"patching_rect" : [ 324.666676342487335, 461.33334356546402, 59.333335101604462, 15.333333790302277 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.666672706604004, 220.000006556510925, 88.00000262260437, 15.333333790302277 ],
 					"saved_attribute_attributes" : 					{
@@ -323,9 +378,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.666681885719299, 469.333348393440247, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 510.666687548160553, 438.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -335,9 +390,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.666687548160553, 469.333348393440247, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 700.666687548160553, 438.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -347,9 +402,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.500002801418304, 87.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 53.500002801418304, 69.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -359,7 +414,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-34",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver Bus 3", ",", "IAC Driver Bus 4", ",", "to Max 1", ",", "to Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -368,7 +423,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 53.500002801418304, 179.333338677883148, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.000000655651093, 74.333335518836975, 133.333337306976318, 23.0 ]
+					"presentation_rect" : [ 22.0, 74.333335518836975, 162.000000655651093, 23.0 ]
 				}
 
 			}
@@ -394,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 805.333357334136963, 536.666682660579681, 25.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.000000655651093, 344.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 426.0, 343.0, 25.0, 20.0 ],
 					"text" : "ch."
 				}
 
@@ -407,7 +462,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 618.666685104370117, 536.666682660579681, 25.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.000000655651093, 343.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 190.0, 342.5, 25.0, 20.0 ],
 					"text" : "ch."
 				}
 
@@ -423,7 +478,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 805.333357334136963, 563.333350121974945, 42.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.000000655651093, 320.0, 42.0, 22.0 ]
+					"presentation_rect" : [ 426.0, 319.0, 42.0, 22.0 ]
 				}
 
 			}
@@ -438,7 +493,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 618.666685104370117, 563.333350121974945, 42.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 130.000000655651093, 319.0, 42.0, 22.0 ]
+					"presentation_rect" : [ 190.0, 318.5, 42.0, 22.0 ]
 				}
 
 			}
@@ -448,7 +503,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-7",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver Bus 3", ",", "IAC Driver Bus 4", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -457,7 +512,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 700.666687548160553, 562.666683435440063, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.000000655651093, 319.0, 100.0, 23.0 ]
+					"presentation_rect" : [ 258.666673302650452, 318.5, 162.000000655651093, 23.0 ]
 				}
 
 			}
@@ -481,7 +536,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-4",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "IAC Driver Bus 3", ",", "IAC Driver Bus 4", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -490,7 +545,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 510.666681885719299, 562.666683435440063, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.000000655651093, 318.0, 100.0, 23.0 ]
+					"presentation_rect" : [ 22.0, 318.0, 162.000000655651093, 23.0 ]
 				}
 
 			}
@@ -520,7 +575,7 @@
 					"patching_rect" : [ 374.666677832603455, 640.000019073486328, 349.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 331.0, 186.333336889743805, 349.0, 51.0 ],
+					"presentation_rect" : [ 320.0, 184.333340346813202, 349.0, 51.0 ],
 					"text" : "network  order: \nAMS >> STC >> PIT >> KRN >> AMS"
 				}
 
@@ -549,7 +604,7 @@
 					"patching_rect" : [ 236.000007033348083, 640.000019073486328, 86.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 187.000000655651093, 258.0, 86.0, 51.0 ],
+					"presentation_rect" : [ 258.666673302650452, 257.5, 86.0, 51.0 ],
 					"text" : "to next organ"
 				}
 
@@ -596,47 +651,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 299.0, 52.0, 22.0 ],
-					"text" : "pack i i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 20.0,
-					"id" : "obj-13",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 16.0, 75.0, 51.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 187.0, 15.333335518836975, 75.0, 51.0 ],
-					"text" : "remote\nmidi in"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 450.0, 238.0, 41.0, 22.0 ],
-					"text" : "notein"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-11",
 					"maxclass" : "live.text",
@@ -647,7 +661,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 550.0, 289.0, 119.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 126.333337426185608, 119.0, 42.0 ],
+					"presentation_rect" : [ 320.0, 124.333340346813202, 119.0, 42.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -743,11 +757,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.500002801418304, 31.0, 73.0, 51.0 ],
+					"patching_rect" : [ 52.000002801418304, 12.0, 122.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 22.000000655651093, 15.666667103767395, 73.0, 51.0 ],
-					"text" : "local\nmidi in"
+					"presentation_rect" : [ 22.000000655651093, 15.666667103767395, 122.0, 51.0 ],
+					"text" : "organsynch\nmidi in"
 				}
 
 			}
@@ -780,8 +794,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-12", 0 ]
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -803,27 +817,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 2 ],
-					"source" : [ "obj-17", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"source" : [ "obj-17", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -906,21 +899,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1087,36 +1080,43 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-55", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-6", 1 ]
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -1158,6 +1158,7 @@
  ],
 		"parameters" : 		{
 			"obj-11" : [ "live.text", "live.text", 0 ],
+			"obj-13" : [ "live.text[3]", "live.text[2]", 0 ],
 			"obj-33" : [ "live.text[1]", "live.text[1]", 0 ],
 			"obj-36::obj-15" : [ "live.dial[2]", "Reduce velocity to", 0 ],
 			"obj-36::obj-27" : [ "live.dial[16]", "Added latency", 0 ],
@@ -1201,15 +1202,15 @@
 			}
 , 			{
 				"name" : "midifb.modulo.maxpat",
-				"bootpath" : "~/Documents/git/tcp-ip-4-way/abstractions/midi-feedback",
-				"patcherrelativepath" : "./abstractions/midi-feedback",
+				"bootpath" : "~/Documents/git/sophtar/MaxMSP/abstractions/midi-feedback",
+				"patcherrelativepath" : "../sophtar/MaxMSP/abstractions/midi-feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midifb.vel.maxpat",
-				"bootpath" : "~/Documents/git/tcp-ip-4-way/abstractions/midi-feedback",
-				"patcherrelativepath" : "./abstractions/midi-feedback",
+				"bootpath" : "~/Documents/git/sophtar/MaxMSP/abstractions/midi-feedback",
+				"patcherrelativepath" : "../sophtar/MaxMSP/abstractions/midi-feedback",
 				"type" : "JSON",
 				"implicit" : 1
 			}
