@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 182.0, 87.0, 1599.0, 477.0 ],
+		"rect" : [ 189.0, 417.0, 1633.0, 479.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -38,7 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1187.0, 87.0, 202.0, 65.0 ],
+					"patching_rect" : [ 1187.0, 87.0, 206.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 1351.0, 252.0, 206.0, 65.0 ],
@@ -114,8 +114,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 523.0, 96.0, 22.0 ],
-					"text" : "set \"from Max 1\""
+					"patching_rect" : [ 732.0, 536.5, 118.0, 22.0 ],
+					"text" : "symbol \"from Max 1\""
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 634.0, 473.0, 32.0, 22.0 ],
+					"patching_rect" : [ 732.0, 479.5, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -185,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.0, 659.0, 177.0, 47.0 ],
+					"patching_rect" : [ 796.0, 672.5, 177.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 22.000000327825546, 327.0, 162.000000655651093, 60.0 ],
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 895.0, 659.0, 151.0, 20.0 ],
+					"patching_rect" : [ 1125.0, 671.5, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 259.000000327825546, 326.0, 151.0, 20.0 ],
 					"text" : "Default: \"IAC Driver Bus 2\""
@@ -226,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 882.0, 473.0, 32.0, 22.0 ],
+					"patching_rect" : [ 1112.0, 485.5, 32.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -238,8 +238,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 763.0, 523.0, 126.0, 22.0 ],
-					"text" : "set \"IAC Driver Bus 2\""
+					"patching_rect" : [ 995.0, 535.5, 148.0, 22.0 ],
+					"text" : "symbol \"IAC Driver Bus 2\""
 				}
 
 			}
@@ -262,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 155.0, 126.0, 22.0 ],
-					"text" : "set \"IAC Driver Bus 1\""
+					"patching_rect" : [ 23.0, 155.0, 148.0, 22.0 ],
+					"text" : "symbol \"IAC Driver Bus 1\""
 				}
 
 			}
@@ -340,7 +340,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 447.0, 79.0, 22.0 ],
+					"patching_rect" : [ 1190.0, 459.5, 79.0, 22.0 ],
 					"text" : "r refresh-midi"
 				}
 
@@ -352,7 +352,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.75, 447.0, 79.0, 22.0 ],
+					"patching_rect" : [ 861.0, 453.5, 79.0, 22.0 ],
 					"text" : "r refresh-midi"
 				}
 
@@ -388,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 895.0, 523.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1125.0, 535.5, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -400,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.0, 523.0, 29.5, 22.0 ],
+					"patching_rect" : [ 861.0, 536.5, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -501,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 699.0, 580.0, 31.0, 22.0 ],
+					"patching_rect" : [ 861.0, 593.5, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -513,7 +513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 895.0, 586.0, 31.0, 22.0 ],
+					"patching_rect" : [ 1125.0, 598.5, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -559,6 +559,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -582,6 +583,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -699,7 +701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 634.0, 447.0, 58.0, 22.0 ],
+					"patching_rect" : [ 732.0, 453.5, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -711,7 +713,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 882.0, 447.0, 58.0, 22.0 ],
+					"patching_rect" : [ 1112.0, 459.5, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -767,7 +769,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1062.0, 587.5, 25.0, 20.0 ],
+					"patching_rect" : [ 1292.0, 599.5, 25.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 426.000000327825546, 326.0, 25.0, 20.0 ],
 					"text" : "ch."
@@ -780,7 +782,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 799.0, 587.5, 25.0, 20.0 ],
+					"patching_rect" : [ 961.0, 600.5, 25.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.000000327825546, 326.0, 25.0, 20.0 ],
 					"text" : "ch."
@@ -796,7 +798,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1062.0, 614.5, 42.0, 22.0 ],
+					"patching_rect" : [ 1292.0, 626.5, 42.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 426.000000327825546, 302.0, 42.0, 22.0 ]
 				}
@@ -811,7 +813,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 799.0, 614.5, 42.0, 22.0 ],
+					"patching_rect" : [ 961.0, 627.5, 42.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.000000327825546, 302.0, 42.0, 22.0 ]
 				}
@@ -830,7 +832,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 895.0, 614.0, 144.0, 23.0 ],
+					"patching_rect" : [ 1125.0, 626.5, 144.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 259.000000327825546, 301.0, 162.000000655651093, 23.0 ]
 				}
@@ -845,7 +847,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 895.0, 557.0, 55.0, 23.0 ],
+					"patching_rect" : [ 1125.0, 569.5, 55.0, 23.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -863,7 +865,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 634.0, 614.0, 150.0, 23.0 ],
+					"patching_rect" : [ 796.0, 627.5, 150.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.000000327825546, 301.0, 162.000000655651093, 23.0 ]
 				}
@@ -878,7 +880,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.0, 551.0, 55.0, 23.0 ],
+					"patching_rect" : [ 861.0, 564.5, 55.0, 23.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -892,7 +894,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.0, 709.0, 349.0, 51.0 ],
+					"patching_rect" : [ 796.0, 722.5, 349.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 22.000000327825546, 390.641509433962256, 349.0, 51.0 ],
@@ -1106,7 +1108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1034.0, 58.0, 100.0, 73.619631901840492 ],
-					"pic" : "Screenshot 2025-09-16 at 10.51.32.png",
+					"pic" : "screenshot-organsynch-MIDI-chans.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 1002.0, 28.0, 563.0, 414.478527607361968 ]
 				}
@@ -1123,7 +1125,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 919.0, 56.974842767295598, 100.0, 88.050314465408803 ],
-					"pic" : "Screenshot 2025-09-16 at 10.50.39.png",
+					"pic" : "screenshot-organsynch-local-organ.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 507.0, 19.0, 480.0, 422.641509433962256 ]
 				}
@@ -1652,20 +1654,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Screenshot 2025-09-16 at 10.50.39.png",
-				"bootpath" : "~/Documents/git/tcp-ip-4-way/media",
-				"patcherrelativepath" : "./media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screenshot 2025-09-16 at 10.51.32.png",
-				"bootpath" : "~/Documents/git/tcp-ip-4-way/media",
-				"patcherrelativepath" : "./media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "inter-node.maxpat",
 				"bootpath" : "~/Documents/git/tcp-ip-4-way/abstractions",
 				"patcherrelativepath" : "./abstractions",
@@ -1684,6 +1672,20 @@
 				"bootpath" : "~/Documents/git/sophtar/MaxMSP/abstractions/midi-feedback",
 				"patcherrelativepath" : "../sophtar/MaxMSP/abstractions/midi-feedback",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "screenshot-organsynch-MIDI-chans.png",
+				"bootpath" : "~/Documents/git/tcp-ip-4-way/media",
+				"patcherrelativepath" : "./media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "screenshot-organsynch-local-organ.png",
+				"bootpath" : "~/Documents/git/tcp-ip-4-way/media",
+				"patcherrelativepath" : "./media",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
