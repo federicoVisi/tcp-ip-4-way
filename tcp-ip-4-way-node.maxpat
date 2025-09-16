@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 746.0, 109.0, 1628.0, 498.0 ],
+		"rect" : [ 182.0, 87.0, 1599.0, 477.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -501,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 634.0, 586.0, 31.0, 22.0 ],
+					"patching_rect" : [ 699.0, 580.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -878,7 +878,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.0, 557.0, 55.0, 23.0 ],
+					"patching_rect" : [ 699.0, 551.0, 55.0, 23.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -895,7 +895,7 @@
 					"patching_rect" : [ 634.0, 709.0, 349.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 22.000000327825546, 389.0, 349.0, 51.0 ],
+					"presentation_rect" : [ 22.000000327825546, 390.641509433962256, 349.0, 51.0 ],
 					"text" : "network  order: \nAMS >> STC >> PIT >> KRN >> AMS"
 				}
 
@@ -1579,7 +1579,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
